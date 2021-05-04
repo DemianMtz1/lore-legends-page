@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/all.min.css" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <title>Lore legends</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-legends-primary position-sticky sticky-top"
+    >
+      <p class="logo-nav">Lore legends</p>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarScroll"
+        aria-controls="navbarScroll"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="icon-awesome fas fa-bars"></span>
+      </button>
+
+      <div class="collapse navbar-collapse w-50" id="navbarScroll">
+        <ul class="navbar-nav my-2 my-lg-0 ml-auto">
+          <li class="nav-item active py-2 p-md-0">
+            <a class="nav-link text-white" href="#home">Inicio </a>
+          </li>
+          <li class="nav-item py-2 p-md-0">
+            <a class="nav-link text-white" href="#features">Caracteristicas</a>
+          </li>
+          <li class="nav-item py-2 p-md-0">
+            <a class="nav-link text-white" href="#instructions">Como se usa</a>
+          </li>
+          <li class="nav-item py-2 p-md-0">
+            <a class="nav-link text-white" href="#try-saying">Intenta diciendo</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="w-100 bg-legends-secondary" id="home">
+      <div class="text-center">
+        <img
+          src="assets/img/alexa-lorelegends.png"
+          alt="lore-legends"
+          class="img-header"
+        />
+      </div>
+      <div class="text-wrapper text-center">
+        <h2>Bienvenidos a Lore Legends</h2>
+        <p>Aprende a como utilizar la skill</p>
+      </div>
+    </header>
+
+    <section class="features-content" id="features">
+      <div class="container py-3">
+        <div class="title-wrapper-section my-4">
+          <h2>Caracteristicas</h2>
+          <div class="separator"></div>
+        </div>
+        <div class="card-wrapper my-4">
+          <div class="card rounded shadow-sm my-4">
+            <img
+              src="assets/img/lol-card-2.jpg"
+              class="card-img-top"
+              alt="feature-1"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Historia random</h5>
+              <p class="card-text text-center px-2">
+                La skill cuenta con la funcionalidad de poder contarte la
+                cualquier campeón en el caso de no contar con alguno en
+                especifico.
+              </p>
+            </div>
+          </div>
+          <div class="card rounded shadow-sm">
+            <img
+              src="assets/img/league-ft.jpg"
+              class="card-img-top"
+              alt="feature-2"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Historia por campéon</h5>
+              <p class="card-text text-center px-2">
+                La skill Lore Legends te brinda la opción de poder escuchar la
+                historia del campeon que tu quieras escucharla.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-use-section" id="instructions">
+      <div class="container py-3">
+        <div class="title-wrapper-how py-4">
+          <h2>¿Como se usa?</h2>
+          <div class="separator"></div>
+        </div>
+        <div class="row">
+          <div class="col-5 d-none d-md-flex justify-content-center align-items-center"><img src="assets/img/read-instructions-lore.png" class="img-instructions" alt="instructions" ></div>
+          <div class="col-12 col-md-7 list-col">
+            <ol class="list-wrapper">
+              <li>Abrir la skill diciendo “Alexa, abre lore legends”</li>
+              <li>Responder la pregunta de alexa para escuchar la historia</li>
+              <li>
+                Escuchar tu historia y responder la siguiente pregunta con un si
+                o no
+              </li>
+              <li>
+                Si deseas repetir una una pregunta o tu historia solo dile
+                “podrias repetir?” o algo similar.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="try-saying-section" id="try-saying">
+      <div class="container py-3 try-section-wrapper">
+        <div class="title-wrapper-section my-4">
+          <h2>Intenta decir</h2>
+          <div class="separator"></div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 ">
+            <div class="try-wrapper text-center">
+              <p>
+                <span>“Alexa, abre lore legends”</span><br />
+                Este comando inicia la skill lore legends que se instalo
+                previamente.
+              </p>
+              <p>
+                <span
+                  >“Dame el lore de Amumu(aqui seria el nombre de cualquier
+                  campeón)”
+                </span><br />
+                Al decir esto, la skill te contara la historia del campeón que
+                le mencionaste una vez ya hayas iniciado la skill.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="try-wrapper text-center">
+              <p>
+                <span>“Dame una historia random”</span><br />
+                Este comando te contara una historia random de todos los
+                campeones que se encuentran en el juego actualmente, esto
+                despues de abrir la skill.
+              </p>
+              <p>
+                <span>“Podrias repetir” </span><br /> Una vez que alexa termine de
+                decir algo, podria repetirtelo utilizando este comando. Esto te
+                servira si quieres volver a escuchar la misma historia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-legends-primary w-100 text-white text-center py-4 px-5">
+      <small>Derechos reservados &copy; Lore legends 2021</small>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

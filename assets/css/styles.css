@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap'); /*font-family: 'Spartan', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');/*font-family: 'PT Serif', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');/*font-family: 'PT Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap');/*font-family: 'PT Serif Caption', serif;*/
+/* General classes */
+.logo-nav{
+    font-family: 'Spartan', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    margin: auto 0;
+    color: #f4de93;
+    text-shadow: 0px 2px 4px solid black;
+}
+.navbar-light .navbar-toggler {
+    border-color: #000;
+}
+.navbar-toggler {
+    background-color: #000;
+    padding: 12px;
+    border-radius: 6px;
+}
+.navbar-nav .nav-item>.nav-link{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+}
+.card-img-top{
+    height: 250px;
+}
+.card-title {
+    color: #AE914B;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+}
+.card-text{
+    font-size: 15px;
+    font-size: black;
+    font-family: 'PT Sans', sans-serif;
+}
+.icon-awesome{
+    font-size: 19px;
+    color: white;
+    margin: 0 auto;
+}
+header{
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.img-header{
+    width: 240px;
+    height: 240px;
+}
+.text-wrapper{
+    font-family: 'PT Serif', serif;
+    color: white;
+    word-wrap: break-word;
+    
+}
+.text-wrapper h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.text-wrapper p {
+    margin-top: 15px;
+    font-size: 20px;
+}
+.title-wrapper-section  h2{
+    font-family: 'PT Serif', serif;
+    font-size: 44px;
+    font-weight: bold;
+    color: #AE914B;
+    text-align: center;
+}
+.title-wrapper-section .separator {
+    width: 60%;
+    height: 1px;
+    border: 1px solid #AE914B;
+    margin: 0 auto;
+}
+.how-use-section{
+    background-color: #17555B;
+    color: white;
+}
+.title-wrapper-how h2{
+    font-family: 'PT Serif', serif;
+    font-size: 44px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.title-wrapper-how .separator {
+    width: 60%;
+    height: 1px;
+    border: 1px solid #fff;
+    margin: 0 auto;
+}
+.list-wrapper{
+    font-family: 'PT Sans', sans-serif;
+}
+.list-wrapper li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.try-wrapper{
+    font-family: 'PT Sans', sans-serif;
+}
+.try-wrapper p{
+    font-style: italic;
+    font-size: 18px;
+}
+.try-wrapper p>span{
+    font-weight: bold;
+    font-style: unset;
+}
+
+.card-wrapper {
+    width: 100%;
+}
+
+
+
+/*Utilities*/
+
+.bg-legends-primary{
+    background-color: #112120;
+}
+.bg-legends-secondary {
+    background-color: #17555B;
+}
+
+@media screen and (min-width: 767px) {
+    .features-content{
+        height: 70vh;
+    }
+    .card-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .card-wrapper .card{
+        width: 300px;
+        height: 450px;
+    }
+    .how-use-section{
+        height: 50vh;
+    }
+    .img-instructions{
+        width: 300px; 
+        height: 300px;
+    }
+    .list-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .list-wrapper li {
+        font-size: 20px;
+        margin-bottom: 15px; 
+    }
+    .try-saying-section {
+        height: 60vh;
+    }
+    .try-saying-section .try-section-wrapper{
+        height: 100%;
+    }
+    .try-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .try-wrapper p{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width: 767px) {
+    .card-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+}
